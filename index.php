@@ -1,7 +1,4 @@
-<?php
-
-
-?>
+<?php require('inc/random_quotes.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -11,8 +8,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <link rel="stylesheet" href="/css/main.css" />
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="/css/main.css" />
     </head>
     <body>
         <div class="container-fluid">
@@ -27,16 +25,28 @@
             <div class="row justify-content-center">
                 <div class="col-6">
                     <h2 class="text-center">About Me</h2>
-                    <p class="text-justify">
+                    <p>
                         I living in Newfoundland, Canada, with my wife and 3 kids. For the past 5 years I have been employed as
                         Manager of IT for the Newfoundland and Labrador English School District, and as a Senior Systems Analyst
                         for 13 years prior to that. What seems like ages ago I completed my Bachelors Degree in Computer Science
                         and Applied Mathematics.
                     </p>
-                    <p class="text-justify">
-                        I am really looking forward to interacting with all of you over the next few months as we work our way
-                        though the course.
+                    <p>
+                        I am really looking forward to interacting with everyone in the course over the next few months!
                     </p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-6">
+                    <h2 class="text-center">Random Quote</h2>
+                    <blockquote>
+                        <p class="font-italic">
+                            <?php echo $randquote["quote"] ?>&quot;
+                        </p>
+                        <p class="font-weight-bold">
+                            <?php echo $randquote["author"] ?>
+                        </p>
+                    </blockquote>
                 </div>
             </div>
         </div>
