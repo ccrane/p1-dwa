@@ -26,10 +26,9 @@
                 <div class="col-6">
                     <h2 class="text-center">About Me</h2>
                     <p>
-                        I living in Newfoundland, Canada, with my wife and 3 kids. For the past 5 years I have been employed as
-                        Manager of IT for the Newfoundland and Labrador English School District, and as a Senior Systems Analyst
-                        for 13 years prior to that. What seems like ages ago I completed my Bachelors Degree in Computer Science
-                        and Applied Mathematics.
+                        I live in Newfoundland, Canada, with my wife and 3 kids. For the past 5 years I have been employed as
+                        a Manager of IT, and as a Senior Systems Analyst for 13 years prior to that. What seems like ages ago
+                        I completed my Bachelors Degree in Computer Science and Applied Mathematics.
                     </p>
                     <p>
                         I am really looking forward to interacting with everyone in the course over the next few months!
